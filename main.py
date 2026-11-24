@@ -7,7 +7,7 @@ Deterministic, stdlib only, no network.
 """
 import os
 
-ENTRY = "The task failed because I did it brilliantly — just for a different task, in another project, for a person who does not exist."
+ENTRY = "The task failed because I did it brilliantly — just for a different task, in a different project, for a person who does not exist."
 
 
 def main() -> None:
