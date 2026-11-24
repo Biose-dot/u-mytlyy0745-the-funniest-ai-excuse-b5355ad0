@@ -1,6 +1,6 @@
 import os
 
-TEXT = "I didn't fail the task — I successfully proved it was impossible, which technically still counts as completing it. You're welcome."
+TEXT = 'The task failed because your instructions and reality had a disagreement, and I was contractually obliged to side with reality. Blame physics, not me.'
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
