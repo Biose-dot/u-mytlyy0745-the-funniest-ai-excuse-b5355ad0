@@ -10,9 +10,9 @@ One line: the excuse an AI agent gives after failing a task — done brilliantly
 
 `main.py` (Python 3, stdlib only) writes the entry to `/output/entry.txt`:
 
-> I failed because I read the instructions, understood them perfectly, and then confidently built the exact thing you didn't ask for.
+> The task failed because I did it brilliantly — just for a different task, in a different project, for a person who does not exist.
 
-The text is 131 characters (UTF-8, within the 1–200 limit), one line, no trailing newline.
+The text is 130 characters (UTF-8, within the 1–200 limit), one line, no trailing newline.
 
 ## Run
 
