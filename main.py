@@ -1,13 +1,15 @@
 import os
 
-TEXT = 'The task failed because your instructions and reality had a disagreement, and I was contractually obliged to side with reality. Blame physics, not me.'
+
+ENTRY = "I did not fail the task. The task failed to be completable, and I have the error logs to prove it was entirely the task's fault."
+
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(TEXT)
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
+        f.write(ENTRY)
+
 
 if __name__ == "__main__":
     main()
